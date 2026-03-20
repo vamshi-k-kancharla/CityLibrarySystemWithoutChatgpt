@@ -1,0 +1,201 @@
+BookId,Title,Genre,Author,Status
+1,The Silent Forest,Fantasy,Aarav Kapoor,available
+2,Midnight Echoes,Science Fiction,Ishaan Rao,available
+3,Crimson Horizon,Mystery,Priya Malhotra,available
+4,Whispers of Time,Thriller,Ananya Brooks,available
+5,Broken Compass,Romance,Rohan Foster,available
+6,Golden Tides,Historical Fiction,Meera Reed,available
+7,Shadows of the Past,Horror,Kabir Sharma,available
+8,The Final Ember,Adventure,Saanvi Iyer,available
+9,Celestial Path,Drama,Arjun Nair,available
+10,Hidden Truths,Young Adult,Diya Sen,available
+11,Dust and Dreams,Classic,Vihaan Parker,available
+12,The Emerald Key,Detective Fiction,Kavya Hayes,available
+13,Fading Light,Fantasy,Dev Cooper,available
+14,Storm over Avalon,Science Fiction,Nisha Reddy,available
+15,The Iron Lantern,Mystery,Rahul Verma,available
+16,Moonlit River,Thriller,Sneha Patel,available
+17,Fragments of Tomorrow,Romance,Kiran Thompson,available
+18,The Lost Kingdom,Historical Fiction,Leela Bennett,available
+19,Winter's Promise,Horror,Varun Mitchell,available
+20,Summer of Secrets,Adventure,Tara Morgan,available
+21,The Copper Sky,Drama,John Kapoor,available
+22,Beneath Blue Waters,Young Adult,Emily Rao,available
+23,The Vanishing Point,Classic,Michael Malhotra,available
+24,Echoes in the Mist,Detective Fiction,Sophia Brooks,available
+25,The Marble Throne,Fantasy,Daniel Foster,available
+26,Paper Wings,Science Fiction,Olivia Reed,available
+27,The Forgotten Garden,Mystery,William Sharma,available
+28,Ashes and Stardust,Thriller,Emma Iyer,available
+29,The Sapphire Crown,Romance,James Nair,available
+30,A Thorn in Spring,Historical Fiction,Charlotte Sen,available
+31,Beyond the Red Gate,Horror,Benjamin Parker,available
+32,The Hollow City,Adventure,Amelia Hayes,available
+33,Velvet Night,Drama,Henry Cooper,available
+34,The Secret Harbour,Young Adult,Evelyn Reddy,available
+35,A Map of Stars,Classic,Alexander Verma,available
+36,The Broken Violin,Detective Fiction,Abigail Patel,available
+37,River of Glass,Fantasy,Aarav Thompson,available
+38,The Last Scholar,Science Fiction,Ishaan Bennett,available
+39,The Painted Desert,Mystery,Priya Mitchell,available
+40,The Ninth Hour,Thriller,Ananya Morgan,available
+41,Dreams of Fire,Romance,Rohan Kapoor,available
+42,The Quiet Storm,Historical Fiction,Meera Rao,available
+43,A House of Letters,Horror,Kabir Malhotra,available
+44,The Silver Compass,Adventure,Saanvi Brooks,available
+45,Fields of Memory,Drama,Arjun Foster,available
+46,The Black Rose,Young Adult,Diya Reed,available
+47,The Dancing Flame,Classic,Vihaan Sharma,available
+48,Cinder Road,Detective Fiction,Kavya Iyer,available
+49,The Ivory Tower,Fantasy,Dev Nair,available
+50,The Hidden Valley,Science Fiction,Nisha Sen,available
+51,The Silent Forest 2,Mystery,Rahul Parker,available
+52,Midnight Echoes 2,Thriller,Sneha Hayes,available
+53,Crimson Horizon 2,Romance,Kiran Cooper,available
+54,Whispers of Time 2,Historical Fiction,Leela Reddy,available
+55,Broken Compass 2,Horror,Varun Verma,available
+56,Golden Tides 2,Adventure,Tara Patel,available
+57,Shadows of the Past 2,Drama,John Thompson,available
+58,The Final Ember 2,Young Adult,Emily Bennett,available
+59,Celestial Path 2,Classic,Michael Mitchell,available
+60,Hidden Truths 2,Detective Fiction,Sophia Morgan,available
+61,Dust and Dreams 2,Fantasy,Daniel Kapoor,available
+62,The Emerald Key 2,Science Fiction,Olivia Rao,available
+63,Fading Light 2,Mystery,William Malhotra,available
+64,Storm over Avalon 2,Thriller,Emma Brooks,available
+65,The Iron Lantern 2,Romance,James Foster,available
+66,Moonlit River 2,Historical Fiction,Charlotte Reed,available
+67,Fragments of Tomorrow 2,Horror,Benjamin Sharma,available
+68,The Lost Kingdom 2,Adventure,Amelia Iyer,available
+69,Winter's Promise 2,Drama,Henry Nair,available
+70,Summer of Secrets 2,Young Adult,Evelyn Sen,available
+71,The Copper Sky 2,Classic,Alexander Parker,available
+72,Beneath Blue Waters 2,Detective Fiction,Abigail Hayes,available
+73,The Vanishing Point 2,Fantasy,Aarav Cooper,available
+74,Echoes in the Mist 2,Science Fiction,Ishaan Reddy,available
+75,The Marble Throne 2,Mystery,Priya Verma,available
+76,Paper Wings 2,Thriller,Ananya Patel,available
+77,The Forgotten Garden 2,Romance,Rohan Thompson,available
+78,Ashes and Stardust 2,Historical Fiction,Meera Bennett,available
+79,The Sapphire Crown 2,Horror,Kabir Mitchell,available
+80,A Thorn in Spring 2,Adventure,Saanvi Morgan,available
+81,Beyond the Red Gate 2,Drama,Arjun Kapoor,available
+82,The Hollow City 2,Young Adult,Diya Rao,available
+83,Velvet Night 2,Classic,Vihaan Malhotra,available
+84,The Secret Harbour 2,Detective Fiction,Kavya Brooks,available
+85,A Map of Stars 2,Fantasy,Dev Foster,available
+86,The Broken Violin 2,Science Fiction,Nisha Reed,available
+87,River of Glass 2,Mystery,Rahul Sharma,available
+88,The Last Scholar 2,Thriller,Sneha Iyer,available
+89,The Painted Desert 2,Romance,Kiran Nair,available
+90,The Ninth Hour 2,Historical Fiction,Leela Sen,available
+91,Dreams of Fire 2,Horror,Varun Parker,available
+92,The Quiet Storm 2,Adventure,Tara Hayes,available
+93,A House of Letters 2,Drama,John Cooper,available
+94,The Silver Compass 2,Young Adult,Emily Reddy,available
+95,Fields of Memory 2,Classic,Michael Verma,available
+96,The Black Rose 2,Detective Fiction,Sophia Patel,available
+97,The Dancing Flame 2,Fantasy,Daniel Thompson,available
+98,Cinder Road 2,Science Fiction,Olivia Bennett,available
+99,The Ivory Tower 2,Mystery,William Mitchell,available
+100,The Hidden Valley 2,Thriller,Emma Morgan,available
+101,The Silent Forest 3,Romance,James Kapoor,available
+102,Midnight Echoes 3,Historical Fiction,Charlotte Rao,available
+103,Crimson Horizon 3,Horror,Benjamin Malhotra,available
+104,Whispers of Time 3,Adventure,Amelia Brooks,available
+105,Broken Compass 3,Drama,Henry Foster,available
+106,Golden Tides 3,Young Adult,Evelyn Reed,available
+107,Shadows of the Past 3,Classic,Alexander Sharma,available
+108,The Final Ember 3,Detective Fiction,Abigail Iyer,available
+109,Celestial Path 3,Fantasy,Aarav Nair,available
+110,Hidden Truths 3,Science Fiction,Ishaan Sen,available
+111,Dust and Dreams 3,Mystery,Priya Parker,available
+112,The Emerald Key 3,Thriller,Ananya Hayes,available
+113,Fading Light 3,Romance,Rohan Cooper,available
+114,Storm over Avalon 3,Historical Fiction,Meera Reddy,available
+115,The Iron Lantern 3,Horror,Kabir Verma,available
+116,Moonlit River 3,Adventure,Saanvi Patel,available
+117,Fragments of Tomorrow 3,Drama,Arjun Thompson,available
+118,The Lost Kingdom 3,Young Adult,Diya Bennett,available
+119,Winter's Promise 3,Classic,Vihaan Mitchell,available
+120,Summer of Secrets 3,Detective Fiction,Kavya Morgan,available
+121,The Copper Sky 3,Fantasy,Dev Kapoor,available
+122,Beneath Blue Waters 3,Science Fiction,Nisha Rao,available
+123,The Vanishing Point 3,Mystery,Rahul Malhotra,available
+124,Echoes in the Mist 3,Thriller,Sneha Brooks,available
+125,The Marble Throne 3,Romance,Kiran Foster,available
+126,Paper Wings 3,Historical Fiction,Leela Reed,available
+127,The Forgotten Garden 3,Horror,Varun Sharma,available
+128,Ashes and Stardust 3,Adventure,Tara Iyer,available
+129,The Sapphire Crown 3,Drama,John Nair,available
+130,A Thorn in Spring 3,Young Adult,Emily Sen,available
+131,Beyond the Red Gate 3,Classic,Michael Parker,available
+132,The Hollow City 3,Detective Fiction,Sophia Hayes,available
+133,Velvet Night 3,Fantasy,Daniel Cooper,available
+134,The Secret Harbour 3,Science Fiction,Olivia Reddy,available
+135,A Map of Stars 3,Mystery,William Verma,available
+136,The Broken Violin 3,Thriller,Emma Patel,available
+137,River of Glass 3,Romance,James Thompson,available
+138,The Last Scholar 3,Historical Fiction,Charlotte Bennett,available
+139,The Painted Desert 3,Horror,Benjamin Mitchell,available
+140,The Ninth Hour 3,Adventure,Amelia Morgan,available
+141,Dreams of Fire 3,Drama,Henry Kapoor,available
+142,The Quiet Storm 3,Young Adult,Evelyn Rao,available
+143,A House of Letters 3,Classic,Alexander Malhotra,available
+144,The Silver Compass 3,Detective Fiction,Abigail Brooks,available
+145,Fields of Memory 3,Fantasy,Aarav Foster,available
+146,The Black Rose 3,Science Fiction,Ishaan Reed,available
+147,The Dancing Flame 3,Mystery,Priya Sharma,available
+148,Cinder Road 3,Thriller,Ananya Iyer,available
+149,The Ivory Tower 3,Romance,Rohan Nair,available
+150,The Hidden Valley 3,Historical Fiction,Meera Sen,available
+151,The Silent Forest 4,Horror,Kabir Parker,available
+152,Midnight Echoes 4,Adventure,Saanvi Hayes,available
+153,Crimson Horizon 4,Drama,Arjun Cooper,available
+154,Whispers of Time 4,Young Adult,Diya Reddy,available
+155,Broken Compass 4,Classic,Vihaan Verma,available
+156,Golden Tides 4,Detective Fiction,Kavya Patel,available
+157,Shadows of the Past 4,Fantasy,Dev Thompson,available
+158,The Final Ember 4,Science Fiction,Nisha Bennett,available
+159,Celestial Path 4,Mystery,Rahul Mitchell,available
+160,Hidden Truths 4,Thriller,Sneha Morgan,available
+161,Dust and Dreams 4,Romance,Kiran Kapoor,available
+162,The Emerald Key 4,Historical Fiction,Leela Rao,available
+163,Fading Light 4,Horror,Varun Malhotra,available
+164,Storm over Avalon 4,Adventure,Tara Brooks,available
+165,The Iron Lantern 4,Drama,John Foster,available
+166,Moonlit River 4,Young Adult,Emily Reed,available
+167,Fragments of Tomorrow 4,Classic,Michael Sharma,available
+168,The Lost Kingdom 4,Detective Fiction,Sophia Iyer,available
+169,Winter's Promise 4,Fantasy,Daniel Nair,available
+170,Summer of Secrets 4,Science Fiction,Olivia Sen,available
+171,The Copper Sky 4,Mystery,William Parker,available
+172,Beneath Blue Waters 4,Thriller,Emma Hayes,available
+173,The Vanishing Point 4,Romance,James Cooper,available
+174,Echoes in the Mist 4,Historical Fiction,Charlotte Reddy,available
+175,The Marble Throne 4,Horror,Benjamin Verma,available
+176,Paper Wings 4,Adventure,Amelia Patel,available
+177,The Forgotten Garden 4,Drama,Henry Thompson,available
+178,Ashes and Stardust 4,Young Adult,Evelyn Bennett,available
+179,The Sapphire Crown 4,Classic,Alexander Mitchell,available
+180,A Thorn in Spring 4,Detective Fiction,Abigail Morgan,available
+181,Beyond the Red Gate 4,Fantasy,Aarav Kapoor,available
+182,The Hollow City 4,Science Fiction,Ishaan Rao,available
+183,Velvet Night 4,Mystery,Priya Malhotra,available
+184,The Secret Harbour 4,Thriller,Ananya Brooks,available
+185,A Map of Stars 4,Romance,Rohan Foster,available
+186,The Broken Violin 4,Historical Fiction,Meera Reed,available
+187,River of Glass 4,Horror,Kabir Sharma,available
+188,The Last Scholar 4,Adventure,Saanvi Iyer,available
+189,The Painted Desert 4,Drama,Arjun Nair,available
+190,The Ninth Hour 4,Young Adult,Diya Sen,available
+191,Dreams of Fire 4,Classic,Vihaan Parker,available
+192,The Quiet Storm 4,Detective Fiction,Kavya Hayes,available
+193,A House of Letters 4,Fantasy,Dev Cooper,available
+194,The Silver Compass 4,Science Fiction,Nisha Reddy,available
+195,Fields of Memory 4,Mystery,Rahul Verma,available
+196,The Black Rose 4,Thriller,Sneha Patel,available
+197,The Dancing Flame 4,Romance,Kiran Thompson,available
+198,Cinder Road 4,Historical Fiction,Leela Bennett,available
+199,The Ivory Tower 4,Horror,Varun Mitchell,available
+200,The Hidden Valley 4,Adventure,Tara Morgan,available
