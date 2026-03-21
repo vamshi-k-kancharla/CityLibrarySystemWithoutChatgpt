@@ -8,6 +8,9 @@ membersData = [
     { 'MemberId' : 1, 'Role' : 'Admin', 'Name' : 'Admin User', 'Age' : 35, 'Email' : 'admin@gmail.com', 'Mobile' : '9849908934', 
      'Password' : '12345' },
 
+    { 'MemberId' : 2, 'Role' : 'Member', 'Name' : 'Member User', 'Age' : 35, 'Email' : 'member@gmail.com', 'Mobile' : '9849908944', 
+     'Password' : '12345' },
+
 ] 
 
 
