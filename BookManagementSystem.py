@@ -18,9 +18,9 @@ def AddBookToTheLibrarySystem(currentBookListDataFrame) :
     
     currentBook = {}
 
-    currentBook['Title'] = input("Please Enter the book Title :  ")
-    currentBook['Author'] = input("Please Enter the book Author :  ")
-    currentBook['Genre'] = input("Please Enter the book Genre :  ")
+    currentBook['Title'] = input("Please Enter the book Title :  ").lower()
+    currentBook['Author'] = input("Please Enter the book Author :  ").lower()
+    currentBook['Genre'] = input("Please Enter the book Genre :  ").lower()
 
     currentBook['Status'] = 'available'
     currentBook['BookId'] = len(currentBookListDataFrame) + 1
@@ -39,7 +39,7 @@ def ShowAvailableBooksInGivenGenre(currentBookListDataFrame) :
         print("Please login as Admin/Member to view available books in current Genre")
         return
     
-    inputGenre = input("Please Enter the Genre that you are interested in :  ")
+    inputGenre = input("Please Enter the Genre that you are interested in :  ").lower()
     
     print(currentBookListDataFrame[currentBookListDataFrame['Genre'] == inputGenre])
 
@@ -53,7 +53,7 @@ def SearchBooksBasedOnTitle(currentBookListDataFrame) :
         print("Please login as Admin/Member to view books Based on Title")
         return
     
-    inputTitle = input("Please Enter the Book Title that you are interested in :  ")
+    inputTitle = input("Please Enter the Book Title that you are interested in :  ").lower()
     
     print(currentBookListDataFrame[currentBookListDataFrame['Title'] == inputTitle])
 
@@ -67,7 +67,7 @@ def SearchBooksBasedOnAuthor(currentBookListDataFrame) :
         print("Please login as Admin/Member to view books Based on Author")
         return
     
-    inputAuthor = input("Please Enter the Book Author that you are interested in :  ")
+    inputAuthor = input("Please Enter the Book Author that you are interested in :  ").lower()
     
     print(currentBookListDataFrame[currentBookListDataFrame['Author'] == inputAuthor])
 
@@ -81,11 +81,16 @@ def BorrowABookFromLibrary(currentBookListDataFrame) :
         print("Please login as Member to borrow the book based on Title")
         return
     
-    inputTitle = input("Please Enter the Book Title that you are interested in :  ")
+    inputTitle = input("Please Enter the Book Title that you are interested in :  ").lower()
+
+    if ( currentBookListDataFrame.loc[currentBookListDataFrame['Title'] == inputTitle , 'Status'].empty ) :
+
+        print("Entered book title is not present in the library")
+        return
 
     print(currentBookListDataFrame.loc[currentBookListDataFrame['Title'] == inputTitle , 'Status'].iloc[0])
 
-    if currentBookListDataFrame.loc[currentBookListDataFrame['Title'] == inputTitle , 'Status'].iloc[0] != 'available' :
+    if ( currentBookListDataFrame.loc[currentBookListDataFrame['Title'] == inputTitle , 'Status'].iloc[0] != 'available' ) :
 
         print("Book is already issued")
         return
@@ -107,7 +112,12 @@ def ReturnABookToLibrary(currentBookListDataFrame) :
         print("Please login as Member to borrow the book based on Title")
         return
     
-    inputTitle = input("Please Enter the Book Title that you are returning :  ")
+    inputTitle = input("Please Enter the Book Title that you are returning :  ").lower()
+
+    if ( currentBookListDataFrame.loc[currentBookListDataFrame['Title'] == inputTitle , 'Status'].empty ) :
+
+        print("Entered book title is not present in the library")
+        return
 
     if DoesBorrowerAndReturnedMatch(currentBookListDataFrame, inputTitle) == False :
 
@@ -161,6 +171,75 @@ def DoesBorrowerAndReturnedMatch(currentBookListDataFrame, inputTitle) :
     else :
     
         return False
+
+
+def ReturnListOfMembersThatBorrowedBooks() :
+
+    global bookListBorrowLog
+
+    ListOfBorrowers = []
+
+    for currentBookId in bookListBorrowLog : 
+    
+        for currentBookLog in bookListBorrowLog[currentBookId] :
+
+            if currentBookLog['Status'] == 'borrowed' and currentBookLog['User'] not in ListOfBorrowers :
+
+                ListOfBorrowers.append(currentBookLog['User'])
+
+    print("List of members who borrowed books are : " , ListOfBorrowers)
+
+
+def ReturnMostPopularGenre(currentBookListDataFrame) :
+
+    global bookListBorrowLog
+
+    listOfGenresObject = {}
+
+    for currentBookId in bookListBorrowLog : 
+
+        currentBookBorrowCount = 0
+
+        for currentBorrowLog in bookListBorrowLog[currentBookId] :
+
+            if currentBorrowLog['Status'] == 'borrowed' :
+
+                currentBookBorrowCount += 1
+    
+        currentBookGenre = currentBookListDataFrame.loc[currentBookListDataFrame['BookId'] == currentBookId, 'Genre'].iloc[0]
+
+        if currentBookGenre in listOfGenresObject :
+
+            listOfGenresObject[currentBookGenre] += currentBookBorrowCount
+
+        else :
+
+            listOfGenresObject[currentBookGenre] = currentBookBorrowCount
+
+    # Extract the Most Popular Genre
+
+    mostPopularGenres = []
+    maxGenreBorrows = 0
+
+    for currentBookGenre in listOfGenresObject :
+
+        maxGenreBorrows = maxGenreBorrows if maxGenreBorrows >= listOfGenresObject[currentBookGenre] else listOfGenresObject[currentBookGenre]
+
+    for currentBookGenre in listOfGenresObject :
+
+        if listOfGenresObject[currentBookGenre] == maxGenreBorrows :
+
+            mostPopularGenres.append(currentBookGenre)
+
+    print("Most populare Genres are : ", mostPopularGenres)
+
+
+
+
+
+
+
+
 
 
 

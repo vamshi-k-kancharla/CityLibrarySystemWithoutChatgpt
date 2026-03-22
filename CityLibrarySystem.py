@@ -11,8 +11,8 @@
 import pandas as pd
 
 from RoleManagementSystem import UserLogin, LogoutUser, AddMemberToTheLibrarySystem
-from BookManagementSystem import AddBookToTheLibrarySystem, ShowAvailableBooksInGivenGenre, SearchBooksBasedOnTitle
-from BookManagementSystem import BorrowABookFromLibrary, ReturnABookToLibrary, SearchBooksBasedOnAuthor
+from BookManagementSystem import AddBookToTheLibrarySystem, ShowAvailableBooksInGivenGenre, SearchBooksBasedOnTitle, ReturnMostPopularGenre
+from BookManagementSystem import BorrowABookFromLibrary, ReturnABookToLibrary, SearchBooksBasedOnAuthor, ReturnListOfMembersThatBorrowedBooks
 
 
 '''
@@ -89,7 +89,7 @@ def ProcessCityLibrarySystemInput(currentBookListDataFrame) :
 
                 case 7 :
 
-                    AddBookToTheLibrarySystem(currentBookListDataFrame)
+                    ReturnListOfMembersThatBorrowedBooks()
 
                 case 8 :
 
@@ -101,7 +101,7 @@ def ProcessCityLibrarySystemInput(currentBookListDataFrame) :
 
                 case 10 :
 
-                    AddBookToTheLibrarySystem(currentBookListDataFrame)
+                    ReturnMostPopularGenre(currentBookListDataFrame)
 
                 case 11 :
 
@@ -131,6 +131,10 @@ def ProcessCityLibrarySystemInput(currentBookListDataFrame) :
 print("Reading CSV File of book list ")
 
 currentBookListDataFrame = pd.read_csv("InputBookList.csv")
+
+currentBookListDataFrame['Title'] = currentBookListDataFrame['Title'].str.lower()
+currentBookListDataFrame['Genre'] = currentBookListDataFrame['Genre'].str.lower()
+currentBookListDataFrame['Author'] = currentBookListDataFrame['Author'].str.lower()
 
 print(currentBookListDataFrame)
 
